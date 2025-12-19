@@ -6,7 +6,7 @@
 /*   By: tcostant <tcostant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 13:37:44 by tcostant          #+#    #+#             */
-/*   Updated: 2025/12/04 12:10:50 by tcostant         ###   ########.fr       */
+/*   Updated: 2025/12/10 17:38:43 by tcostant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,7 +26,6 @@ char	*get_next_line(int fd);
 
 char	*ft_strjoin(char const *s1, char const *s2);
 char	*ft_strchr(const char *s, int c);
-void	ft_bzero(void *s, size_t n);
 size_t	ft_strlen(const char *str);
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize);
 

@@ -6,7 +6,7 @@
 /*   By: tcostant <tcostant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/02 13:43:25 by tcostant          #+#    #+#             */
-/*   Updated: 2025/12/05 14:35:00 by antigravity      ###   ########.fr       */
+/*   Updated: 2025/12/18 17:17:21 by tcostant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -104,11 +104,11 @@ char	*get_next_line(int fd)
 }
 
 // int	main(void)
-// 	{
+// {
 // 	int		fd;
 // 	char	*line;
 
-// 	fd = open("pseudo", O_RDONLY);
+// 	fd = open("TCC.txt", O_RDONLY);
 // 	while (1)
 // 	{
 // 		line = get_next_line(fd);

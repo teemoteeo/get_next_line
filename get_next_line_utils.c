@@ -6,7 +6,7 @@
 /*   By: tcostant <tcostant@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/03 16:04:48 by tcostant          #+#    #+#             */
-/*   Updated: 2025/12/05 14:40:00 by antigravity      ###   ########.fr       */
+/*   Updated: 2025/12/10 17:38:35 by tcostant         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,20 +65,6 @@ char	*ft_strchr(const char *s, int c)
 	if ((char)c == '\0')
 		return ((char *)s);
 	return (NULL);
-}
-
-void	ft_bzero(void *s, size_t n)
-{
-	size_t			i;
-	unsigned char	*ptr;
-
-	i = 0;
-	ptr = (unsigned char *)s;
-	while (i < n)
-	{
-		ptr[i] = 0;
-		i++;
-	}
 }
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t dstsize)
